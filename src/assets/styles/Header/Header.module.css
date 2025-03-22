@@ -1,0 +1,51 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.right {
+    display: flex;
+    padding-right: 24px;
+    gap: 24px;
+    font-size: 22px;
+}
+
+.username {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 100px;
+    height: 80px;
+    box-sizing: border-box;
+    border: 1px solid rgb(173, 173, 173);
+    margin-left: 75px;
+}
+
+.username img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.bell {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    background-color: rgb(41, 40, 40);
+}
+
+.bell:hover {
+    background-color: rgb(173, 173, 173);
+   
+}
