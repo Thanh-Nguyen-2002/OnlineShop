@@ -50,3 +50,13 @@ h1 {
     margin: 0;
     padding: 0;
 }
+
+@media (max-width: 1024px) {
+    .sidebar {
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+    }
+}

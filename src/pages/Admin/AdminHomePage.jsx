@@ -17,7 +17,6 @@ const HomePage = () => {
                 </div>
                 <div className={styles.main}>
                     <main><Outlet /></main>
-                    123
                 </div>
             </div>
         </div>
